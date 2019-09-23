@@ -9,6 +9,7 @@
 #               rulesFromConseq函数  生成候选规则集
 #               calcConf函数   用最小置信度
 
+# 需要多次扫描数据库
 
 # 生成原始数据  用于测试
 def loadDataSet():
@@ -19,6 +20,7 @@ def loadDataSet():
 
 
 # 创建C1：单个元素的集合
+# 遍历数据集的每项物品，建立1-项集
 def createC1(dataSet):
     '''
     [frozenset({1}),
@@ -27,8 +29,11 @@ def createC1(dataSet):
      frozenset({4}),
      frozenset({5})]
     '''
+    # 记录每项物品的列表
     C1 = []
+    # 遍历每条记录
     for transaction in dataSet:
+        # 遍历每条记录中的物品
         for item in transaction:
             if not [item] in C1:
                 C1.append([item])
@@ -37,7 +42,15 @@ def createC1(dataSet):
 
 
 # 统计支持度并且过滤，C1-->L1
+# 输入：数据集D、候选集Ck、最小支持度
+# 候选集Ck由上一层（第k-1层）的频繁项集LK-1组合得到
+# 用最小支持度minsupport对候选集Ck进行过滤
+# 输出：本层（第K层）的频繁项集LK，每项的支持度
+
+# 例如，由频繁1-项集（L1）内部组合生成候选集（C2）
+# 去除不满足最小支持度的项，得到频繁2-项集（L2）
 def scanD(D, Ck, minSupport):
+    # key：候选集中的每项，value是该物品在所有物品中出现的次数
     ssCnt = {}
 
     # 统计每个候选集出现在记录中的个数
@@ -60,15 +73,19 @@ def scanD(D, Ck, minSupport):
     return retList, supportData
 
 
-dataSet = loadDataSet()
-C1 = createC1(dataSet)
-L1, supportData0 = scanD(dataSet, C1, 0.5)
-L1
+# dataSet = loadDataSet()
+# C1 = createC1(dataSet)
+# L1, supportData0 = scanD(dataSet, C1, 0.5)
+# L1
 
 
 # 完整的Apriori算法
 
 # Lk-1 --> Ck：组合
+# 由上层频繁k-1项集生成候选k项集
+# 如输入{0},{1},{2}会生成{0,1}，{0,2}，{1,2}
+# 输入：频繁k-1项集，新的候选集元素个数K
+# 输出：候选集
 def aprioriGen(Lk, k):
     retList = []
     lenLk = len(Lk)
@@ -83,22 +100,37 @@ def aprioriGen(Lk, k):
     return retList
 
 
-# Apriori主函数
+# Apriori主函数   输入数据集、最小支持度
 def apriori(dataSet, minSupport=0.5):
-    # 创建C1-->L1
+    # 创建C1-->L1   生成1项集
     C1 = createC1(dataSet)
+    # 对数据集进行映射至D,去掉重复的数据记录
+
     D = list(map(set, dataSet))  # 所有数据
+    # 过滤最小支持度，得到频繁集1-项集L1以及每项的支持度
     L1, supportData = scanD(D, C1, minSupport)
+    # 将L1放到列表L中，L中包含L1、L2、L3
+    # L中存放所有的频繁集项，由L1产生L2，L2产生L3
     L = [L1]
     k = 2
 
     # Ck-->Lk：过滤
+    # 根据L1寻找L2、L3  通过while循环来完成
+    # 他创建包含更大项集的更大列表，直到下一个更大的项集为空
+    # 候选物品组合长度超过原数据集最大的物品记录长度
+    # 如原始数据集物品记录最大长度为4,那么候选集最多为4-项集
     while (len(L[k - 2]) > 0):  # 直到最后的元素为空则停止
+        # 由频繁集k-1项，产生K项候选集
         Ck = aprioriGen(L[k - 2], k)  # k-2:从index=0开始
+        # 由k项候选集，经最小支持度筛选，生成频繁K项集
         Lk, supK = scanD(D, Ck, minSupport)
+        # 更新支持度字典，用于加入新的支持度
         supportData.update(supK)
+        # 将新的频繁集K项集合加入已有频繁集的列表中
         L.append(Lk)
         k += 1
+    # 前面找不到支持的项，构建出更高的频繁项集LK时，算法停止
+    # 返回所有频繁项集和支持度列表
     return L, supportData
 
 

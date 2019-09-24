@@ -19,6 +19,19 @@ def loadDataSet():
             [2, 5]]
 
 
+def loadUseful():
+    file = open('F:/推荐系统算法/大数据/代码/推荐系统算法工程师-代码/代码/ml-100k/u1.base', encoding='utf-8')
+    middle = {}
+    for line in file.readlines():
+        uid, mid, _, _ = line.split("\t")
+        if uid not in middle.keys():
+            middle[uid] = []
+        middle[uid].append(mid)
+    for k, v in middle.values():
+        print(k)
+        print(v)
+
+
 # 创建C1：单个元素的集合
 # 遍历数据集的每项物品，建立1-项集
 def createC1(dataSet):
@@ -194,9 +207,10 @@ def rulesFromConseq(freqSet, H, supportData, brList, minConf=0.7):
 
 if __name__ == '__main__':
     dataSet = loadDataSet()
+    loadUseful()
     L, supportData = apriori(dataSet, minSupport=0.5)
-    print("LLLLLLLLLLLLLLLLLLLLLLLLLLLL")
-    print(L)
+    # print("LLLLLLLLLLLLLLLLLLLLLLLLLLLL")
+    # print(L)
     rules = generateRules(L, supportData, minConf=0.5)
-    print('rules-----------------------')
-    print(rules)
+    # print('rules-----------------------')
+    # print(rules)

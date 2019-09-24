@@ -28,7 +28,7 @@ def createTree(dataSet, minSup=1):
     headerTable = {}
     for trans in dataSet:  # 第一次遍历：统计各个数据的频繁度
         for item in trans:
-            headerTable[item] = headerTable.get(item, 0) + dataSet[trans]
+            headerTable[item] = headerTable.get(item, 0) + dataSet[trans]   
             # 用头指针表统计各个类别的出现的次数，计算频繁量：头指针表[类别]=出现次数
     for k in list(headerTable):  # 删除未达到最小频繁度的数据
         if headerTable[k] < minSup:

@@ -1,7 +1,7 @@
-# coding: utf - 8
+# -*- coding: utf-8 -*-
 import socket
 
-from myroot.produce_deal_log.Data_P2 import r2
+# from myroot.produce_deal_log.Data_P2 import r2
 
 HOST, PORT = socket.gethostname(), 8888
 
@@ -73,9 +73,11 @@ for line in file.readlines():
     lss = ls[1].split('&&')
     for v in lss:
         cate_items[ls[0]].append(v)
-print('pre process log')
-for k, v in cate_items.items():
-    print(k + '\t' + '&&'.join(v))
+
+
+# print('pre process log')
+# for k, v in cate_items.items():
+# print(k + '\t' + '&&'.join(v))
 
 
 # request请求的结果
@@ -130,22 +132,38 @@ class CutIndex:
 
 # Real time ranking 实时排序
 class RTR:
-    old = ['1', '2','3', '4', '5']
+    old = ['1', '2', '3', '4', '5']
     new = ['5', '4', '3', '2', '1']
 
     # def __init__(self):
     #     pass
 
     def p(self, key):
-        m = r2.get('9527#1')
+        # m = r2.get('9527#1')
         if m != None:
-            if int(m)>5000:
+            if int(m) > 5000:
                 return 'more than 5000'
             else:
                 return 'less than 5000'
             return ','.join(self.new)
         else:
             return ','.join(self.old)
+
+
+class Movie:
+    movie = {}
+
+    def __init__(self):
+        file = open('F:/推荐系统算法/大数据/代码/推荐系统算法工程师-代码/代码/ml-100k/u.item', encoding='utf-8')
+        for line in file.readlines():
+            # ls=line.encode('utf-8').split('|')
+            ls = line.split('|')
+            self.movie[ls[0]] = '&&'.join(ls[1:])
+
+    def check(self, movieId):
+        if movieId in self.movie.keys():
+            return self.movie[movieId]
+        return "Not found"
 
 
 while True:
@@ -161,8 +179,12 @@ while True:
     #             first one
     #             """
     paras, tag = request.decode().strip('EOF').split("&&")
-    r = RTR()
-    http_response = r.p(paras)
+    # real time ranking实时排序
+    # r = RTR()
+    # http_response = r.p(paras)
+
+    m = Movie()
+    http_response = m.check(paras)
 
     # 返回文件名
     # c = CutIndex()

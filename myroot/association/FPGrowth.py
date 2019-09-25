@@ -28,7 +28,7 @@ def createTree(dataSet, minSup=1):
     headerTable = {}
     for trans in dataSet:  # 第一次遍历：统计各个数据的频繁度
         for item in trans:
-            headerTable[item] = headerTable.get(item, 0) + dataSet[trans]   
+            headerTable[item] = headerTable.get(item, 0) + dataSet[trans]
             # 用头指针表统计各个类别的出现的次数，计算频繁量：头指针表[类别]=出现次数
     for k in list(headerTable):  # 删除未达到最小频繁度的数据
         if headerTable[k] < minSup:
@@ -83,6 +83,21 @@ def loadSimpDat():
                ['y', 'r', 'x', 'z', 'q', 't', 'p'],
                ['y', 'z', 'x', 'e', 'q', 's', 't', 'm']]
     return simpDat
+
+
+def loadMovie():
+    file = open('F:/推荐系统算法/大数据/代码/推荐系统算法工程师-代码/代码/ml-100k/u1.base', encoding='utf-8')
+    middle = {}
+    ret = []
+    for line in file.readlines():
+        uid, mid, _, _ = line.split("\t")
+        if uid not in middle.keys():
+            middle[uid] = []
+        if len(middle[uid]) < 11:
+            middle[uid].append(int(mid))
+    # for k, v in middle.items():
+    #     ret.append(v)
+    return middle.values()
 
 
 # createInitSet() 用于实现上述从列表到字典的类型转换过程
@@ -144,8 +159,18 @@ def fpGrowth(dataSet, minSup=3):
 
 
 if __name__ == "__main__":
-    simpDat = loadSimpDat()
+    # simpDat = loadSimpDat()
+    simpDat = loadMovie()
     initSet = createInitSet(simpDat)
     myFPtree, myHeaderTab = createTree(initSet, 3)
-    myFPtree.disp()
+    # myFPtree.disp()
 
+    freeItems = []
+    mineTree(myFPtree, myHeaderTab, 3, set([]), freeItems)
+    file = open('./result_fpGrowth', 'w')
+    for l in freeItems:
+        li = []
+        for ll in l:
+                li.append(str(ll))
+        file.write('&&'.join(li) + '\r')
+    # print(freeItems)

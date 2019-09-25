@@ -152,6 +152,8 @@ class RTR:
 
 class Movie:
     movie = {}
+    related = {}
+    related_fp = {}
 
     def __init__(self):
         file = open('F:/推荐系统算法/大数据/代码/推荐系统算法工程师-代码/代码/ml-100k/u.item', encoding='utf-8')
@@ -159,11 +161,42 @@ class Movie:
             # ls=line.encode('utf-8').split('|')
             ls = line.split('|')
             self.movie[ls[0]] = '&&'.join(ls[1:])
+        # file = open('./result_apriori')
+        # for line in file.readlines():
+        #     ls = line.split("&&")
+        #     self.related[ls[0]] = "&&".join(ls[1:])
+        file = open('./result_fpGrowth')
+        for line in file.readlines():
+            ls = line.strip().split("&&")
+            self.related_fp[ls[0]] = "&&".join(ls[1:])
 
     def check(self, movieId):
         if movieId in self.movie.keys():
             return self.movie[movieId]
         return "Not found"
+
+    def find_related(self, movieId):
+        if movieId in self.related[movieId]:
+            return self.related[movieId]
+        return 'not found'
+
+    def detail(self, movied):
+        ret = ""
+        if movied in self.related.keys():
+            ids = self.related[movied].split("&&")
+            for idss in ids:
+                ret += self.check(idss)
+                ret += '\r\n'
+        return ret
+
+    def detail_fp(self, movied):
+        ret = ''
+        if movied in self.related_fp.keys():
+            ids = self.related_fp[movied].split("&&")
+            for idss in ids:
+                ret += self.check(idss)
+                ret += '\r\n'
+        return ret
 
 
 while True:
@@ -184,7 +217,10 @@ while True:
     # http_response = r.p(paras)
 
     m = Movie()
-    http_response = m.check(paras)
+    # http_response = m.check(paras)
+    # http_response = m.find_related(paras)
+    # http_response = m.detail(paras)
+    http_response = m.detail_fp(paras)
 
     # 返回文件名
     # c = CutIndex()

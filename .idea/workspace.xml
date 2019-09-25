@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ee48b15-4e3f-42a1-a0f9-086f1bbefbe6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/myroot/produce_deal_log/result_fpGrowth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myroot/association/FPGrowth.py" beforeDir="false" afterPath="$PROJECT_DIR$/myroot/association/FPGrowth.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myroot/association/apriori.py" beforeDir="false" afterPath="$PROJECT_DIR$/myroot/association/apriori.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myroot/produce_deal_log/Client.py" beforeDir="false" afterPath="$PROJECT_DIR$/myroot/produce_deal_log/Client.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myroot/produce_deal_log/Redis.py" beforeDir="false" afterPath="$PROJECT_DIR$/myroot/produce_deal_log/Redis.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myroot/produce_deal_log/Server.py" beforeDir="false" afterPath="$PROJECT_DIR$/myroot/produce_deal_log/Server.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,17 +20,17 @@
     <SUITE FILE_PATH="coverage/recommend$DistanceTest.coverage" NAME="DistanceTest Coverage Results" MODIFIED="1568959695266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myroot/basedcf" />
     <SUITE FILE_PATH="coverage/recommend$Redis.coverage" NAME="Redis Coverage Results" MODIFIED="1569307645313" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myroot/produce_deal_log" />
     <SUITE FILE_PATH="coverage/recommend$Prepare_jieba.coverage" NAME="Prepare_jieba Coverage Results" MODIFIED="1568254158310" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myroot/produce_deal_log" />
-    <SUITE FILE_PATH="coverage/recommend$Client.coverage" NAME="Client Coverage Results" MODIFIED="1569313600278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myroot/produce_deal_log" />
+    <SUITE FILE_PATH="coverage/recommend$Client.coverage" NAME="Client Coverage Results" MODIFIED="1569394668771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myroot/produce_deal_log" />
     <SUITE FILE_PATH="coverage/recommend$Data_P1.coverage" NAME="Data_P1 Coverage Results" MODIFIED="1568595539305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myroot/produce_deal_log" />
     <SUITE FILE_PATH="coverage/recommend$Lock.coverage" NAME="Lock Coverage Results" MODIFIED="1568171404990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myroot/produce_deal_log" />
     <SUITE FILE_PATH="coverage/recommend$Client__1_.coverage" NAME="Client (1) Coverage Results" MODIFIED="1568276012733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myroot/produce_deal_log" />
     <SUITE FILE_PATH="coverage/recommend$TestJieba.coverage" NAME="TestJieba Coverage Results" MODIFIED="1568179547838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myroot/produce_deal_log" />
     <SUITE FILE_PATH="coverage/recommend$Test.coverage" NAME="Test Coverage Results" MODIFIED="1568800915761" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myroot/basedcf" />
-    <SUITE FILE_PATH="coverage/recommend$Server.coverage" NAME="Server Coverage Results" MODIFIED="1569312784432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myroot/produce_deal_log" />
+    <SUITE FILE_PATH="coverage/recommend$Server.coverage" NAME="Server Coverage Results" MODIFIED="1569394665991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myroot/produce_deal_log" />
     <SUITE FILE_PATH="coverage/recommend$Produce_log.coverage" NAME="Produce_log Coverage Results" MODIFIED="1568098914957" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myroot/produce_deal_log" />
     <SUITE FILE_PATH="coverage/recommend$Server__1_.coverage" NAME="Server (1) Coverage Results" MODIFIED="1568276008623" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myroot/produce_deal_log" />
-    <SUITE FILE_PATH="coverage/recommend$FPGrowth.coverage" NAME="FPGrowth Coverage Results" MODIFIED="1569230204159" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myroot/association" />
-    <SUITE FILE_PATH="coverage/recommend$apriori.coverage" NAME="apriori Coverage Results" MODIFIED="1569316031616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myroot/association" />
+    <SUITE FILE_PATH="coverage/recommend$FPGrowth.coverage" NAME="FPGrowth Coverage Results" MODIFIED="1569393152624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myroot/association" />
+    <SUITE FILE_PATH="coverage/recommend$apriori.coverage" NAME="apriori Coverage Results" MODIFIED="1569378855406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myroot/association" />
     <SUITE FILE_PATH="coverage/recommend$ItemBasedCF.coverage" NAME="ItemBasedCF Coverage Results" MODIFIED="1568790162891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myroot/basedcf" />
     <SUITE FILE_PATH="coverage/recommend$s1.coverage" NAME="s1 Coverage Results" MODIFIED="1567069474604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/推荐系统算法/大数据/推荐系统算法工程师-代码/代码" />
     <SUITE FILE_PATH="coverage/recommend$UserBasedCf.coverage" NAME="UserBasedCf Coverage Results" MODIFIED="1568956893271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myroot/basedcf" />
@@ -41,8 +42,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myroot/produce_deal_log/Redis.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="17" column="27" lean-forward="true" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+            <state relative-caret-position="345">
+              <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -59,11 +60,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myroot/association/apriori.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="168">
+              <caret line="219" selection-start-line="219" selection-end-line="219" />
             </state>
           </provider>
         </entry>
@@ -71,8 +72,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myroot/association/FPGrowth.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+            <state relative-caret-position="113">
+              <caret line="169" column="34" selection-start-line="169" selection-start-column="19" selection-end-line="169" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -80,17 +81,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myroot/produce_deal_log/Server.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="161" lean-forward="true" selection-start-line="161" selection-end-line="161" />
+            <state relative-caret-position="180">
+              <caret line="167" column="40" lean-forward="true" selection-start-line="167" selection-start-column="40" selection-end-line="167" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/myroot/produce_deal_log/Client.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+            <state relative-caret-position="329">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
@@ -176,11 +177,11 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/myroot/basedcf/UserBasedCf.py" />
         <option value="$PROJECT_DIR$/myroot/basedcf/DistanceTest.py" />
-        <option value="$PROJECT_DIR$/myroot/association/FPGrowth.py" />
         <option value="$PROJECT_DIR$/myroot/produce_deal_log/Redis.py" />
-        <option value="$PROJECT_DIR$/myroot/produce_deal_log/Server.py" />
-        <option value="$PROJECT_DIR$/myroot/produce_deal_log/Client.py" />
         <option value="$PROJECT_DIR$/myroot/association/apriori.py" />
+        <option value="$PROJECT_DIR$/myroot/association/FPGrowth.py" />
+        <option value="$PROJECT_DIR$/myroot/produce_deal_log/Client.py" />
+        <option value="$PROJECT_DIR$/myroot/produce_deal_log/Server.py" />
       </list>
     </option>
   </component>
@@ -196,6 +197,22 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="recommend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="recommend" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="recommend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="recommend" type="462c0819:PsiDirectoryNode" />
+              <item name="myroot" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -212,28 +229,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="recommend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="recommend" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="recommend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="recommend" type="462c0819:PsiDirectoryNode" />
-              <item name="myroot" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="recommend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="recommend" type="462c0819:PsiDirectoryNode" />
-              <item name="myroot" type="462c0819:PsiDirectoryNode" />
-              <item name="produce_deal_log" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -243,11 +238,12 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Jupyter\rs\recommend\myroot\produce_deal_log" />
+      <recent name="E:\Jupyter\rs\recommend\myroot" />
       <recent name="E:\Jupyter\recommend\myroot\produce_deal_log" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Jupyter\rs\recommend\myroot" />
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Jupyter\recommend\myroot\produce_deal_log" />
     </key>
   </component>
@@ -263,7 +259,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.apriori">
+  <component name="RunManager" selected="Python.Client">
     <configuration name="Client" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="recommend" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -376,11 +372,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.apriori" />
         <item itemvalue="Python.Client" />
         <item itemvalue="Python.Server" />
-        <item itemvalue="Python.Redis" />
         <item itemvalue="Python.FPGrowth" />
+        <item itemvalue="Python.apriori" />
+        <item itemvalue="Python.Redis" />
       </list>
     </recent_temporary>
   </component>
@@ -413,31 +409,41 @@
       <workItem from="1568939708550" duration="24263000" />
       <workItem from="1569198865306" duration="27465000" />
       <workItem from="1569285100898" duration="25277000" />
+      <workItem from="1569371166637" duration="23725000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="284139000" />
+    <option name="totallyTimeSpent" value="307864000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.5053305" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.49413645" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49626866" weight="0.29609543" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49626866" weight="0.35900217" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.32321042" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.329718" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5010661" side_tool="true" weight="0.17570499" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49733475" weight="0.4164859" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49733475" weight="0.30802602" />
       <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.4989339" weight="0.3286334" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -446,22 +452,22 @@
       <window_info anchor="right" id="Database" order="4" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.5234541" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.51119405" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4968017" visible="true" weight="0.23644252" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49626866" visible="true" weight="0.35900217" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.32321042" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.329718" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5026652" side_tool="true" weight="0.3275488" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49733475" weight="0.3275488" />
-      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.49946696" weight="0.3286334" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5010661" side_tool="true" weight="0.17570499" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49733475" weight="0.30802602" />
+      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.4989339" weight="0.3286334" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -482,7 +488,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/produce_log.ipynb" />
     <entry file="file://$PROJECT_DIR$/Product_log" />
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2and3/socket.pyi">
       <provider selected="true" editor-type-id="text-editor">
@@ -715,6 +720,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/myroot/produce_deal_log/Data_P1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="20" />
+          <folding>
+            <element signature="e#126#147#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myroot/produce_deal_log/Data_P2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myroot/produce_deal_log/Redis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/myroot/basedcf/DistanceTest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
@@ -742,55 +771,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/myroot/association/apriori.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="219" selection-start-line="219" selection-end-line="219" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myroot/association/result_fpGrowth">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4347" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/myroot/association/FPGrowth.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+        <state relative-caret-position="113">
+          <caret line="169" column="34" selection-start-line="169" selection-start-column="19" selection-end-line="169" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myroot/produce_deal_log/Data_P1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="20" />
-          <folding>
-            <element signature="e#126#147#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myroot/produce_deal_log/Data_P2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myroot/produce_deal_log/Redis.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="17" column="27" lean-forward="true" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/myroot/produce_deal_log/result_fpGrowth">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/myroot/produce_deal_log/Server.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="161" lean-forward="true" selection-start-line="161" selection-end-line="161" />
+        <state relative-caret-position="180">
+          <caret line="167" column="40" lean-forward="true" selection-start-line="167" selection-start-column="40" selection-end-line="167" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/myroot/produce_deal_log/Client.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myroot/association/apriori.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="329">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>

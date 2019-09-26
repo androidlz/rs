@@ -12,7 +12,7 @@ ss.sendall('12&&1'.encode())  # 用户点击了电影条目id为1    服务端�
 # os.system('sleep 1')
 ss.send('EOF'.encode())
 data = ss.recv(1024)
-print('server back %s' % data)
+print('server back %s' % data.decode())
 ss.close()
 
 

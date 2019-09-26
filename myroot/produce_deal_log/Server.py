@@ -171,9 +171,34 @@ class Movie:
             self.related_fp[ls[0]] = "&&".join(ls[1:])
 
     def check(self, movieId):
+        # movie id | movie title | release date | video release date | IMDb URL | unknown | Action |
+        # Adventure | Animation | Children 's | Comedy | Crime | Documentary | Drama | Fantasy |
+        # Film - Noir | Horror | Musical | Mystery | Romance | Sci - Fi | Thriller | War | Western |
+
         if movieId in self.movie.keys():
-            return self.movie[movieId]
-        return "Not found"
+            m = self.movie[movieId].split('&&')
+            ret = ""
+            for i in range(0, len(m)):
+                if i < 3:
+                    ret += m[i]
+                    ret += "\t"
+                # 判断3位置是否是动作电影，以此类推4,5......
+                if i == 3:
+                    if m[i] == "0":
+                        ret += 'no action'
+                        ret += "\t"
+                    else:
+                        ret += "action"
+                        ret += "\t"
+                if i == 4:
+                    if m[i] == "0":
+                        ret += 'no Adventure'
+                        ret += "\t"
+                    else:
+                        ret += "Adventure"
+                        ret += "\t"
+                print(i)
+        return ret
 
     def find_related(self, movieId):
         if movieId in self.related[movieId]:

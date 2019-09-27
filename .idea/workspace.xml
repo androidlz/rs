@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ee48b15-4e3f-42a1-a0f9-086f1bbefbe6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/myroot/tensorflow/fire_theft.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myroot/tensorflow/fire_theft.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myroot/tensorflow/t1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myroot/tensorflow/t2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myroot/tensorflow/t3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myroot/tensorflow/linear_movie.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myroot/produce_deal_log/Client.py" beforeDir="false" afterPath="$PROJECT_DIR$/myroot/produce_deal_log/Client.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myroot/produce_deal_log/Server.py" beforeDir="false" afterPath="$PROJECT_DIR$/myroot/produce_deal_log/Server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myroot/tensorflow/fire_theft.py" beforeDir="false" afterPath="$PROJECT_DIR$/myroot/tensorflow/linear.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,42 +13,35 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/recommend$K_means.coverage" NAME="K_means Coverage Results" MODIFIED="1568714530108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myroot/kmeans" />
     <SUITE FILE_PATH="coverage/recommend$t3.coverage" NAME="t3 Coverage Results" MODIFIED="1569489643531" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myroot/tensorflow" />
-    <SUITE FILE_PATH="coverage/recommend$DistanceTest.coverage" NAME="DistanceTest Coverage Results" MODIFIED="1568959695266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myroot/basedcf" />
+    <SUITE FILE_PATH="coverage/recommend$linear.coverage" NAME="linear Coverage Results" MODIFIED="1569562937608" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myroot/tensorflow" />
     <SUITE FILE_PATH="coverage/recommend$Redis.coverage" NAME="Redis Coverage Results" MODIFIED="1569307645313" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myroot/produce_deal_log" />
+    <SUITE FILE_PATH="coverage/recommend$linear_movie.coverage" NAME="linear_movie Coverage Results" MODIFIED="1569573027817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myroot/tensorflow" />
     <SUITE FILE_PATH="coverage/recommend$Prepare_jieba.coverage" NAME="Prepare_jieba Coverage Results" MODIFIED="1568254158310" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myroot/produce_deal_log" />
-    <SUITE FILE_PATH="coverage/recommend$Client.coverage" NAME="Client Coverage Results" MODIFIED="1569468489280" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myroot/produce_deal_log" />
-    <SUITE FILE_PATH="coverage/recommend$Data_P1.coverage" NAME="Data_P1 Coverage Results" MODIFIED="1568595539305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myroot/produce_deal_log" />
     <SUITE FILE_PATH="coverage/recommend$Lock.coverage" NAME="Lock Coverage Results" MODIFIED="1568171404990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myroot/produce_deal_log" />
     <SUITE FILE_PATH="coverage/recommend$Client__1_.coverage" NAME="Client (1) Coverage Results" MODIFIED="1568276012733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myroot/produce_deal_log" />
-    <SUITE FILE_PATH="coverage/recommend$t2.coverage" NAME="t2 Coverage Results" MODIFIED="1569485370612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myroot/tensorflow" />
-    <SUITE FILE_PATH="coverage/recommend$TestJieba.coverage" NAME="TestJieba Coverage Results" MODIFIED="1568179547838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myroot/produce_deal_log" />
     <SUITE FILE_PATH="coverage/recommend$Test.coverage" NAME="Test Coverage Results" MODIFIED="1568800915761" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myroot/basedcf" />
     <SUITE FILE_PATH="coverage/recommend$Server.coverage" NAME="Server Coverage Results" MODIFIED="1569468486865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myroot/produce_deal_log" />
     <SUITE FILE_PATH="coverage/recommend$fire_theft.coverage" NAME="fire_theft Coverage Results" MODIFIED="1569491584618" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myroot/tensorflow" />
-    <SUITE FILE_PATH="coverage/recommend$Produce_log.coverage" NAME="Produce_log Coverage Results" MODIFIED="1568098914957" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myroot/produce_deal_log" />
     <SUITE FILE_PATH="coverage/recommend$Server__1_.coverage" NAME="Server (1) Coverage Results" MODIFIED="1568276008623" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myroot/produce_deal_log" />
     <SUITE FILE_PATH="coverage/recommend$FPGrowth.coverage" NAME="FPGrowth Coverage Results" MODIFIED="1569393152624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myroot/association" />
     <SUITE FILE_PATH="coverage/recommend$apriori.coverage" NAME="apriori Coverage Results" MODIFIED="1569378855406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myroot/association" />
+    <SUITE FILE_PATH="coverage/recommend$c1.coverage" NAME="c1 Coverage Results" MODIFIED="1567069480878" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/推荐系统算法/大数据/推荐系统算法工程师-代码/代码" />
+    <SUITE FILE_PATH="coverage/recommend$t1.coverage" NAME="t1 Coverage Results" MODIFIED="1569483752607" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myroot/tensorflow" />
+    <SUITE FILE_PATH="coverage/recommend$K_means.coverage" NAME="K_means Coverage Results" MODIFIED="1568714530108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myroot/kmeans" />
+    <SUITE FILE_PATH="coverage/recommend$DistanceTest.coverage" NAME="DistanceTest Coverage Results" MODIFIED="1568959695266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myroot/basedcf" />
+    <SUITE FILE_PATH="coverage/recommend$Client.coverage" NAME="Client Coverage Results" MODIFIED="1569468489280" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myroot/produce_deal_log" />
+    <SUITE FILE_PATH="coverage/recommend$Data_P1.coverage" NAME="Data_P1 Coverage Results" MODIFIED="1568595539305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myroot/produce_deal_log" />
+    <SUITE FILE_PATH="coverage/recommend$t2.coverage" NAME="t2 Coverage Results" MODIFIED="1569485370612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myroot/tensorflow" />
+    <SUITE FILE_PATH="coverage/recommend$TestJieba.coverage" NAME="TestJieba Coverage Results" MODIFIED="1568179547838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myroot/produce_deal_log" />
+    <SUITE FILE_PATH="coverage/recommend$Produce_log.coverage" NAME="Produce_log Coverage Results" MODIFIED="1568098914957" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myroot/produce_deal_log" />
     <SUITE FILE_PATH="coverage/recommend$ItemBasedCF.coverage" NAME="ItemBasedCF Coverage Results" MODIFIED="1568790162891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myroot/basedcf" />
     <SUITE FILE_PATH="coverage/recommend$s1.coverage" NAME="s1 Coverage Results" MODIFIED="1567069474604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/推荐系统算法/大数据/推荐系统算法工程师-代码/代码" />
     <SUITE FILE_PATH="coverage/recommend$UserBasedCf.coverage" NAME="UserBasedCf Coverage Results" MODIFIED="1568956893271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myroot/basedcf" />
-    <SUITE FILE_PATH="coverage/recommend$c1.coverage" NAME="c1 Coverage Results" MODIFIED="1567069480878" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/推荐系统算法/大数据/推荐系统算法工程师-代码/代码" />
-    <SUITE FILE_PATH="coverage/recommend$t1.coverage" NAME="t1 Coverage Results" MODIFIED="1569483752607" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myroot/tensorflow" />
     <SUITE FILE_PATH="coverage/recommend$Data_P2.coverage" NAME="Data_P2 Coverage Results" MODIFIED="1568267431305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myroot/produce_deal_log" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myroot/association/apriori.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5037">
-              <caret line="219" selection-start-line="219" selection-end-line="219" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myroot/association/FPGrowth.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -66,7 +54,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myroot/produce_deal_log/Server.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
+            <state relative-caret-position="4646">
               <caret line="202" column="36" selection-start-line="202" selection-start-column="36" selection-end-line="202" selection-end-column="36" />
             </state>
           </provider>
@@ -99,14 +87,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/myroot/tensorflow/fire_theft.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myroot/tensorflow/linear.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="40" column="54" selection-start-line="40" selection-start-column="54" selection-end-line="40" selection-end-column="54" />
+            <state relative-caret-position="366">
+              <caret line="53" column="25" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="25" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/myroot/tensorflow/linear_movie.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="529">
+              <caret line="27" column="43" lean-forward="true" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -165,6 +162,8 @@
       <find>r2</find>
       <find>pla</find>
       <find>random_uniform</find>
+      <find>add_dispatch_support</find>
+      <find>loss</find>
     </findStrings>
     <replaceStrings>
       <replace>/</replace>
@@ -212,10 +211,12 @@
         <option value="$PROJECT_DIR$/myroot/tensorflow/t2.py" />
         <option value="$PROJECT_DIR$/myroot/tensorflow/t3.py" />
         <option value="$PROJECT_DIR$/myroot/tensorflow/fire_theft.py" />
+        <option value="$PROJECT_DIR$/myroot/tensorflow/linear.py" />
+        <option value="$PROJECT_DIR$/myroot/tensorflow/linear_movie.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="856" />
     <option name="y" value="73" />
     <option name="width" value="1059" />
@@ -227,6 +228,22 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="recommend" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="recommend" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="myroot" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -249,22 +266,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="recommend" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-            </path>
-            <path>
-              <item name="recommend" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="myroot" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -274,13 +275,13 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\Jupyter\recommend\myroot\produce_deal_log" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Jupyter\rs\recommend\myroot\tensorflow" />
       <recent name="E:\Jupyter\rs\recommend\myroot\produce_deal_log" />
       <recent name="E:\Jupyter\rs\recommend\myroot" />
+      <recent name="E:\Jupyter\recommend\myroot\produce_deal_log" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Jupyter\recommend\myroot\produce_deal_log" />
     </key>
   </component>
@@ -296,29 +297,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.fire_theft">
-    <configuration name="Client" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="recommend" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/myroot/produce_deal_log" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/myroot/produce_deal_log/Client.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.linear_movie">
     <configuration name="fire_theft" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="recommend" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -332,7 +311,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/myroot/tensorflow/fire_theft.py" />
+      <option name="SCRIPT_NAME" value="E:\Jupyter\rs\recommend\myroot\tensorflow\linear.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -341,7 +320,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="t1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="linear" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="recommend" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -354,7 +333,29 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/myroot/tensorflow/t1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/myroot/tensorflow/linear.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="linear_movie" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="recommend" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/myroot/tensorflow" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/myroot/tensorflow/linear_movie.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -409,11 +410,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.linear_movie" />
+        <item itemvalue="Python.linear" />
         <item itemvalue="Python.fire_theft" />
         <item itemvalue="Python.t3" />
         <item itemvalue="Python.t2" />
-        <item itemvalue="Python.t1" />
-        <item itemvalue="Python.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -448,11 +449,13 @@
       <workItem from="1569285100898" duration="25277000" />
       <workItem from="1569371166637" duration="23725000" />
       <workItem from="1569465138756" duration="21948000" />
+      <workItem from="1569544218078" duration="7904000" />
+      <workItem from="1569560998198" duration="16620000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="329812000" />
+    <option name="totallyTimeSpent" value="354336000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -464,14 +467,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.49946696" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.49253732" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49626866" weight="0.4251627" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49626866" visible="true" weight="0.26789588" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.32321042" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -525,26 +528,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/redis/connection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="537" selection-start-line="537" selection-end-line="537" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myroot/produce_deal_log/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/hash_ring/hash_ring.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4600">
-          <caret line="200" column="43" lean-forward="true" selection-start-line="200" selection-start-column="43" selection-end-line="200" selection-end-column="43" />
-          <folding>
-            <element signature="e#2263#2274#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/hash_ring/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
@@ -774,6 +757,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://D:/program/anaconda/Lib/site-packages/tensorflow/python/ops/gen_math_ops.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="11374" column="4" selection-start-line="11374" selection-start-column="4" selection-end-line="11374" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/myroot/association/apriori.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5037">
@@ -781,10 +771,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://D:/program/anaconda/Lib/site-packages/tensorflow/python/ops/nn_ops.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="3164" lean-forward="true" selection-start-line="3164" selection-end-line="3164" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/myroot/association/FPGrowth.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3887">
           <caret line="169" column="34" selection-start-line="169" selection-start-column="19" selection-end-line="169" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myroot/produce_deal_log/Server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4646">
+          <caret line="202" column="36" selection-start-line="202" selection-start-column="36" selection-end-line="202" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myroot/tensorflow/t1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" selection-start-line="1" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myroot/tensorflow/t2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" selection-start-line="1" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myroot/tensorflow/t3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" selection-start-line="2" selection-end-line="10" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myroot/produce_deal_log/Client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -805,55 +837,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myroot/produce_deal_log/Server.py">
+    <entry file="file://D:/program/anaconda/Lib/site-packages/tensorflow/python/ops/losses/losses_impl.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="202" column="36" selection-start-line="202" selection-start-column="36" selection-end-line="202" selection-end-column="36" />
+        <state relative-caret-position="155">
+          <caret line="713" column="4" selection-start-line="713" selection-start-column="4" selection-end-line="713" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myroot/tensorflow/t1.py">
+    <entry file="file://$PROJECT_DIR$/myroot/tensorflow/linear.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" selection-start-line="1" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/program/anaconda/Lib/site-packages/tensorflow/python/ops/gen_math_ops.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="11374" column="4" selection-start-line="11374" selection-start-column="4" selection-end-line="11374" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myroot/produce_deal_log/Client.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myroot/tensorflow/t3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" selection-start-line="2" selection-end-line="10" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myroot/tensorflow/t2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" selection-start-line="1" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myroot/tensorflow/fire_theft.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="40" column="54" selection-start-line="40" selection-start-column="54" selection-end-line="40" selection-end-column="54" />
+        <state relative-caret-position="366">
+          <caret line="53" column="25" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="25" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myroot/tensorflow/linear_movie.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="27" column="43" lean-forward="true" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
         </state>
       </provider>
     </entry>
